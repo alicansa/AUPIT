@@ -1,0 +1,22 @@
+{
+  "name": "aupit-server",
+  "version": "1.0.0",
+  "description": "aupit server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node --presets es2015 server.js",
+    "watch": "nodemon --exec 'npm run start'"
+  },
+  "author": "Alican Salor",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7"
+  }
+}
